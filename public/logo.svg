@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <!-- Background: Official Shenk Design soothing architectural blue -->
+  <rect width="200" height="200" fill="#9BC0DC" />
+  
+  <!-- Architectural frame with right-wall opening and diagonal callout tail -->
+  <!-- Top-left to top-right to right break -->
+  <polyline
+    points="62,138 62,62 138,62 138,106"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="6.5"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+  />
+
+  <!-- Diagonal architectural tail projecting down-right outside the box -->
+  <line
+    x1="134"
+    y1="106"
+    x2="152"
+    y2="124"
+    stroke="#FFFFFF"
+    stroke-width="6.5"
+    stroke-linecap="round"
+  />
+
+  <!-- Bottom-left to bottom-right corner and upward lower-right stub -->
+  <polyline
+    points="62,138 138,138 138,124"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="6.5"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+  />
+
+  <!-- Centered geometric 'S' monogram -->
+  <text
+    x="100"
+    y="120"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+    font-size="64"
+    font-weight="600"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    letter-spacing="-0.02em"
+  >S</text>
+</svg>
